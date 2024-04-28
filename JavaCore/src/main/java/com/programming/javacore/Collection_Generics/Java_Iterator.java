@@ -26,7 +26,6 @@ public class Java_Iterator {
             String element = itr.next();
             System.out.println(element);
         }
-        System.out.println();
 
         // alter list language
         ListIterator<String> litr = listLanguages.listIterator();
