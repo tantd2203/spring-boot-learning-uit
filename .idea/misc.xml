@@ -9,6 +9,7 @@
       <list>
         <option value="$PROJECT_DIR$/Annotation_SpringBoot/pom.xml" />
         <option value="$PROJECT_DIR$/JavaCore/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-Component-Autowired/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
