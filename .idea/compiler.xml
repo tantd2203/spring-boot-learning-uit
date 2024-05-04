@@ -2,10 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-relationship" />
         <module name="spring_boot_Primary_Qualifier" />
         <module name="JavaCore" />
         <module name="spring-boot-Component-Autowired" />
@@ -20,6 +22,7 @@
       <module name="Annotation_SpringBoot" options="-parameters" />
       <module name="JavaCore" options="-parameters" />
       <module name="spring-boot-Component-Autowired" options="-parameters" />
+      <module name="spring-boot-relationship" options="-parameters" />
       <module name="spring_boot_Primary_Qualifier" options="-parameters" />
     </option>
   </component>
