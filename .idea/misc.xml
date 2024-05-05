@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Annotation_SpringBoot" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-pet-crud" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -12,6 +13,7 @@
         <option value="$PROJECT_DIR$/spring-boot-Component-Autowired/pom.xml" />
         <option value="$PROJECT_DIR$/spring_boot_Primary_Qualifier/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-relationship/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-pet/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
