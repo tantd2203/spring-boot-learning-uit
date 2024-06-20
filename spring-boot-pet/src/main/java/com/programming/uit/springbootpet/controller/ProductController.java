@@ -20,11 +20,11 @@ import java.util.List;
 public class ProductController {
 
     private final ProductService productService;
+
     @GetMapping
-    public ResponseEntity<List<Product>> listProductInStock() {
+    public List<Product> listProductInStock() {
         List<Product> productInSock = productService.findAllProductInSock();
-        return productInSock != null ? new ResponseEntity<>(productInSock, HttpStatus.CREATED)
-                : new ResponseEntity<>(null, HttpStatus.UNPROCESSABLE_ENTITY);
+        return productInSock;
     }
 
 

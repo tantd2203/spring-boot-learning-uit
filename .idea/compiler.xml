@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-relationship" />
         <module name="spring_boot_Primary_Qualifier" />
+        <module name="SpringSecurity_JWT" />
         <module name="spring-boot-pet" />
         <module name="JavaCore" />
         <module name="spring-boot-Component-Autowired" />
@@ -22,6 +23,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Annotation_SpringBoot" options="-parameters" />
       <module name="JavaCore" options="-parameters" />
+      <module name="SpringSecurity_JWT" options="-parameters" />
       <module name="spring-boot-Component-Autowired" options="-parameters" />
       <module name="spring-boot-pet" options="-parameters" />
       <module name="spring-boot-relationship" options="-parameters" />
