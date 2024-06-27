@@ -18,4 +18,16 @@ public class Category {
     @OneToMany(mappedBy = "category")
     List<Product> products;
 
+    public Category(Long categoryId, String name, List<Product> products) {
+        this.categoryId = categoryId;
+        this.name = name;
+        this.products = products;
+    }
+    public Category( String name, List<Product> products) {
+        this.name = name;
+        this.products = products;
+    }
+// sảy ra trong 1 class , khác kiểu là param chuyen vao la ok
+
+
 }

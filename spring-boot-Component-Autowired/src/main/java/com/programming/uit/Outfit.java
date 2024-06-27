@@ -1,5 +1,5 @@
 package com.programming.uit;
 
 public interface Outfit {
-    public void wear();
+     String wear(int v);
 }

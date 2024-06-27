@@ -19,7 +19,7 @@ public class SpringBootComponentAutowiredApplication {
         // In ra để xem thử nó là gì
         System.out.println("Instance: " + outfit);
         // xài hàm wear()
-        outfit.wear();
+//        outfit.wear();
 
 
         Girl girl = context.getBean(Girl.class);
@@ -28,7 +28,7 @@ public class SpringBootComponentAutowiredApplication {
 
         System.out.println("Girl Outfit: " + girl.outfit);
 
-        girl.outfit.wear();
+//        girl.outfit.wear();
     }
 
 }
