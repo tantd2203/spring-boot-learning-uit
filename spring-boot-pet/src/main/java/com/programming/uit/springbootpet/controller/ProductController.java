@@ -2,6 +2,7 @@ package com.programming.uit.springbootpet.controller;
 
 import com.programming.uit.springbootpet.entity.Product;
 import com.programming.uit.springbootpet.service.ProductService;
+import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpHeaders;
@@ -23,8 +24,8 @@ public class ProductController {
 
     @GetMapping
     public List<Product> listProductInStock() {
-        List<Product> productInSock = productService.findAllProductInSock();
-        return productInSock;
+
+        return productService.findAllProductInSock();
     }
 
 
