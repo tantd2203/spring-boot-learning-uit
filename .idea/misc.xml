@@ -16,11 +16,13 @@
         <option value="$PROJECT_DIR$/spring-boot-pet/pom.xml" />
         <option value="$PROJECT_DIR$/SpringSecurity_JWT/pom.xml" />
         <option value="$PROJECT_DIR$/Response Data/pom.xml" />
+        <option value="$PROJECT_DIR$/ResponseData/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/Annotation_SpringBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/Response Data/pom.xml" />
       </set>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
